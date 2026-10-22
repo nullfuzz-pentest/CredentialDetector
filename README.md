@@ -36,7 +36,7 @@ A diferencia de la versión Jython, esta aprovecha la API moderna de Burp para
 powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 
-Esto genera `CredentialDetector-montoya.jar` en esta carpeta.
+Esto genera `CredentialDetector.jar` en esta carpeta.
 
 Compilación manual equivalente:
 
@@ -53,7 +53,7 @@ jar cfm CredentialDetector-montoya.jar manifest.txt -C build .
 
 1. En Burp: **Extensions > Installed > Add**.
 2. **Extension type:** Java.
-3. **Extension file:** seleccioná `CredentialDetector-montoya.jar`.
+3. **Extension file:** seleccioná `CredentialDetector.jar`.
 4. En la salida deberías ver:
    ```
    [+] Credential Detector (Montoya) cargada.
