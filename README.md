@@ -85,5 +85,5 @@ montoya/
 ├─ lib/montoya-api-2026.7.jar           (API, solo para compilar)
 ├─ manifest.txt                         (Burp-Extension-Class)
 ├─ build.ps1                            (script de compilación)
-└─ CredentialDetector-montoya.jar       (extensión compilada)
+└─ CredentialDetector.jar       (extensión compilada)
 ```
