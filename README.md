@@ -1,4 +1,4 @@
-# Credential Detector (Montoya) - Extensión de Burp Suite
+# Credential Detector - Extensión de Burp Suite
 
 Versión en **Java / API Montoya** de la extensión Credential Detector.
 A diferencia de la versión Jython, esta aprovecha la API moderna de Burp para
