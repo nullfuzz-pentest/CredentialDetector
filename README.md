@@ -1,9 +1,6 @@
 # Credential Detector - Extensión de Burp Suite
 
-Versión en **Java / API Montoya** de la extensión Credential Detector.
-A diferencia de la versión Jython, esta aprovecha la API moderna de Burp para
-**resaltar las coincidencias directamente en el editor de respuesta nativo**
-(solapas Pretty / Raw / Hex), usando la barra de búsqueda del editor.
+Credential Detector es una extensión de Burp Suite (en Java, API Montoya) que analiza automáticamente todas las respuestas HTTP que pasan por Burp (Proxy, Repeater, etc.) buscando credenciales y secretos.
 
 ## Qué hace
 
