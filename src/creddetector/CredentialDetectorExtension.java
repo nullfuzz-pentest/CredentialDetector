@@ -14,14 +14,14 @@ public class CredentialDetectorExtension implements BurpExtension {
 
     @Override
     public void initialize(MontoyaApi api) {
-        api.extension().setName("Credential Detector (Montoya)");
+        api.extension().setName("Credential Detector");
 
         CredentialDetectorTab tab = new CredentialDetectorTab(api);
         api.userInterface().registerSuiteTab("Credential Detector", tab.getUiComponent());
 
         api.http().registerHttpHandler(new CredentialHttpHandler(api, tab));
 
-        api.logging().logToOutput("[+] Credential Detector (Montoya) loaded.");
+        api.logging().logToOutput("[+] Credential Detector loaded.");
         api.logging().logToOutput("[+] 'Credential Detector' tab added.");
         api.logging().logToOutput("[+] Scanning HTTP responses for credentials.");
     }

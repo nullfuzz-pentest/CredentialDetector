@@ -1,4 +1,4 @@
-# Compila la extension Montoya y genera el JAR.
+# Compila la extension Credential Detector y genera el JAR.
 # Uso:  powershell -ExecutionPolicy Bypass -File build.ps1
 $ErrorActionPreference = "Stop"
 
